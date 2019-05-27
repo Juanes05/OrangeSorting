@@ -57,7 +57,7 @@ class wizard1(CalibDialog1.Ui_Dialog, QtWidgets.QDialog):
         x=0
         #print("hola")
 
-        
+        ssa
         def servo():
             GPIO.setmode(GPIO.BOARD)
             GPIO.setup(11,GPIO.OUT)
